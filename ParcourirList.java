@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exo2 {
+public class ParcourirList {
     public static int trouverIndice(String nom, String[] tNoms) {
         for (int i = 0; i < tNoms.length; i++) {
             if (tNoms[i].equals(nom)) {
